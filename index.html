@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth hover:scroll-auto">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoTo Japan</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="shortcut icon" href="dist/img/logo-apps.svg" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- background -->
+    <div style="background-image: url(dist/img/background.svg);" class="w-full h-full bg-no-repeat bg-cover">
+        <!-- navbar -->
+        <section class="flex justify-between">
+            <a href="#home" class="mt-10 mx-5 w-32 md:w-40 md:mt-8 md:mx-20">
+                <img src="dist/img/logo-gotojapan.svg" alt="logo goto japan" class="">
+            </a>
+            <div class="flex mt-1">
+                <button id="mobile-menu-toggle" class="block mx-5 mt-8 lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                        class="w-11">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+                <nav id="mobile-menu" class="mt-12 lg:block transition">
+                    <ul class="lg:flex hidden">
+                        <li class="group">
+                            <a href="#home"
+                                class="mx-10 py-2 text-lg group-hover:text-primary font-semibold font-spartan">HOME</a>
+                        </li>
+                        <li class="group">
+                            <a href="#artikel"
+                                class="mx-10 py-2 text-lg group-hover:text-primary font-semibold font-spartan">ARTICLE</a>
+                        </li>
+                        <li class="group">
+                            <a href="#showmore"
+                                class="mx-10 py-2 text-lg group-hover:text-primary font-semibold font-spartan">EXPLORE</a>
+                        </li>
+                        <li class="group">
+                            <a href="#explore"
+                                class="mx-10 py-2 text-lg group-hover:text-primary font-semibold font-spartan">GALLERIES</a>
+                        </li>
+                        <li class="group">
+                            <a href="#kontak"
+                                class="mx-10 py-2 text-lg group-hover:text-primary font-semibold font-spartan">CONTACT</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="#home" class="mt-10 ml-8 mr-20 hidden lg:block">
+                    <img src="dist/img/logo-apps.svg" alt="">
+                </a>
+            </div>
+        </section>
+        <!-- home -->
+        <section id="home" class="py-5">
+            <div class="text-center mt-32">
+                <h1 class="font-bold font-adobe text-5xl lg:text-7xl">Discover the amazing culture</h1>
+                <h1 class="font-bold font-adobe text-5xl lg:text-7xl lg:pt-5">of Ancient Japan</h1>
+            </div>
+            <div class="flex justify-center mt-24">
+                <h1 class="text-black text-lg lg:text-xl font-spartan">
+                    <span class="mx-1">T</span><span class="mx-1">H</span><span class="mx-1">E</span> &nbsp;&nbsp;
+                    <span class="mx-1">A</span><span class="mx-1">N</span><span class="mx-1">C</span><span
+                        class="mx-1">I</span><span class="mx-1">E</span><span class="mx-1">N</span><span
+                        class="mx-1">T</span> &nbsp;&nbsp;<span class="mx-1">W</span><span class="mx-1">O</span><span
+                        class="mx-1">R</span><span class="mx-1">L</span><span class="mx-1">D</span>
+                </h1>
+            </div>
+            <div class="flex justify-center mt-32">
+                <a href="#artikel">
+                    <img src="dist/img/panah.svg" alt="">
+                </a>
+            </div>
+            <div class="flex justify-center mt-2">
+                <p class="font-semibold tracking-widest">
+                    SCROLL DOWN
+                </p>
+            </div>
+        </section>
+        <!-- gambar rumah -->
+        <div id="#galeri">
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <!-- artikel -->
+        <section id="artikel" class="px-10 text-center md:py-10">
+            <div class="flex justify-center">
+                <h1 class="text-white text-lg md:text-3xl font-spartan">
+                    <span class="mx-2">T</span><span class="mx-2">H</span><span class="mx-2">E</span> &nbsp;&nbsp;
+                    <span class="mx-2">A</span><span class="mx-2">N</span><span class="mx-2">C</span><span
+                        class="mx-2">I</span><span class="mx-2">E</span><span class="mx-2">N</span><span
+                        class="mx-2">T</span>
+                </h1>
+            </div>
+            <div class="flex justify-center mt-10">
+                <h1 class="text-white font-semibold md:font-bold font-adobe text-5xl md:text-6xl tracking-widest">
+                    Japanese <span class="text-primary">Civilization</span></h1>
+            </div>
+            <div class="flex justify-center mt-8 text-lg md:text-2xl md:tracking-wider">
+                <p class="text-white font-spartan text-start mr-12">
+                    The ancient Japanese civilization, <br>
+                    famous for its castles, samurai, <br>
+                    kimono, and Sakura, flourished <br>
+                    for thousands of years. But what <br>
+                    was its lasting impact?
+                </p>
+                <p class="text-white font-spartan text-start">
+                    Watch video below to learn how <br>
+                    ancient Japan contributed to <br>
+                    modern-day society with its many <br>
+                    cultural developments, particularly <br>
+                    in culture & craftmanship
+                </p>
+            </div>
+            <!-- video -->
+            <div id="showmore" class="flex justify-center pt-5 mt-10">
+                <a href="https://www.youtube.com/" target="_blank">
+                    <img src="dist/img/video.svg" alt="">
+                </a>
+            </div>
+            <div>
+                <br>
+            </div>
+            <div>
+                <br>
+            </div>
+            <div>
+                <br>
+            </div>
+            <div>
+                <br>
+            </div>
+            <div>
+                <br>
+            </div>
+            <div>
+                <br>
+            </div>
+            <div>
+                <br>
+            </div>
+            <div>
+                <br>
+            </div>
+            <div>
+                <br>
+            </div>
+            <div>
+                <br>
+            </div>
+            <div>
+                <br>
+            </div>
+            <!-- show more -->
+            <div class="flex justify-center mt-3">
+                <a href="https://www.youtube.com/">
+                    <div class="items-center pl-6 pt-6 pb-4 pr-4 border-4 rounded-lg">
+                        <h1 class="text-white font-spartan text-3xl lg:text-5xl tracking-widest">
+                            SHOW MORE >
+                        </h1>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <br>
+            </div>
+            <div>
+                <br>
+            </div>
+            <div>
+                <br>
+            </div>
+            <div>
+                <br>
+            </div>
+            <div>
+                <br>
+            </div>
+            <div>
+                <br>
+            </div>
+            <div>
+                <br>
+            </div>
+        </section>
+    </div>
+    <section id="explore" class="bg-secondary">
+        <div class="flex justify-center pt-10">
+            <h1 class="text-white text-3xl lg:text-6xl font-spartan">
+                <span class="mx-2 lg:mx-8">E</span><span class="mx-2 lg:mx-8">X</span><span
+                    class="mx-2 lg:mx-8">P</span><span class="mx-2 lg:mx-8">L</span><span
+                    class="mx-2 lg:mx-8">O</span><span class="mx-2 lg:mx-8">R</span><span class="mx-2 lg:mx-8">E</span>
+            </h1>
+        </div>
+        <div class="flex justify-center mt-3 mb-5">
+            <h1 class="text-primary text-xl lg:text-4xl lg:tracking-widest font-spartan">
+                <span class="mx-1 lg:mx-2">T</span><span class="mx-1 lg:mx-2">H</span><span
+                    class="mx-1 lg:mx-2">E</span>&nbsp; <span class="mx-1 lg:mx-2">B</span><span
+                    class="mx-1 lg:mx-2">E</span><span class="mx-1 lg:mx-2">A</span><span
+                    class="mx-1 lg:mx-2">U</span><span class="mx-1 lg:mx-2">T</span><span class="mx-1 lg:mx-2">Y</span>
+            </h1>
+        </div>
+        <div class="mx-10 lg:ml-28 lg:mt-10 lg:items-center columns-4">
+            <img src="dist/img/1.svg" alt="">
+            <img src="dist/img/5.svg" alt="" class="pt-5 lg:pt-12">
+            <img src="dist/img/11.svg" alt="" class="pt-5 lg:pt-12">
+            <img src="dist/img/9.svg" alt="" class="pt-5 lg:pt-12">
+            <img src="dist/img/2.svg" alt="">
+            <img src="dist/img/6.svg" alt="" class="pt-5 lg:pt-12">
+            <img src="dist/img/12.svg" alt="" class="pt-5 lg:pt-12">
+            <img src="dist/img/3.svg" alt="">
+            <img src="dist/img/7.svg" alt="" class="pt-5 lg:pt-12">
+            <img src="dist/img/13.svg" alt="" class="pt-5 lg:pt-12">
+            <img src="dist/img/4.svg" alt="">
+            <img src="dist/img/8.svg" alt="" class="pt-5 lg:pt-12">
+            <img src="dist/img/14.svg" alt="" class="pt-5 lg:pt-12">
+            <img src="dist/img/10.svg" alt="" class="pt-5 lg:pt-12">
+        </div>
+        <div class="flex justify-center mt-20">
+            <a href="https://www.youtube.com/">
+                <div class="items-center pl-6 pt-6 pb-4 pr-4 border-4 rounded-lg">
+                    <h1 class="text-white font-spartan text-3xl lg:text-5xl tracking-widest">
+                        SHOW MORE >
+                    </h1>
+                </div>
+            </a>
+        </div>
+        <div id="kontak" class="flex justify-center mt-52 pt-8">
+            <h1 class="text-white text-2xl lg:text-6xl lg:tracking-widest font-spartan">
+                <span class="mx-3">T</span><span class="mx-3">H</span><span class="mx-3">A</span><span
+                    class="mx-3">N</span><span class="mx-3">K</span>&nbsp;
+                <span class="mx-3">Y</span><span class="mx-3">O</span><span class="mx-3">U</span>
+            </h1>
+        </div>
+        <div class="text-center mt-5">
+            <h1 class="text-primary font-bold font-adobe text-5xl lg:text-8xl">To our Sponsors and</h1>
+            <h1 class="text-primary mt-2 font-bold font-adobe text-5xl lg:text-8xl lg:pt-5">Event
+                <span class="text-white">Partners</span>
+            </h1>
+        </div>
+    </section>
+    <footer class="bg-secondary pt-28 lg:pt-60">
+        <div class="flex justify-center mx-5">
+            <a href="#"><img src="dist/img/Vector (2).svg" alt="" class="pr-2 lg:mx-16"></a>
+            <a href="#"><img src="dist/img/Traced Image.svg" alt="" class="pr-2 my-3 lg:mx-16 lg:my-8"></a>
+            <a href="#"><img src="dist/img/Vector (3).svg" alt="" class="pr-2 my-3 lg:mx-16 lg:my-8"></a>
+            <a href="#"><img src="dist/img/Vector (4).svg" alt="" class="pr-2 lg:mx-16"></a>
+        </div>
+        <div class="flex justify-center pt-10 lg:pt-52 pb-20">
+            <a href="https://www.youtube.com/">
+                <div class="items-center pl-6 pt-6 pb-4 pr-4 border-4 rounded-lg">
+                    <h1 class="text-white font-spartan text-3xl lg:text-5xl tracking-widest">
+                        BOOK NOW >
+                    </h1>
+                </div>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
